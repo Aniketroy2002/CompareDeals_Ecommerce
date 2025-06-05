@@ -1,7 +1,7 @@
 import { MongoClient, type Db } from "mongodb"
 
 const MONGODB_URI =
-  "mongodb+srv://tribhiyantrayam358:BGsYrc8hKOCdjQ7w@cluster0.eqxhmjk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "paste-mongodb-url"
 const MONGODB_DB = "CompareDeals"
 
 if (!MONGODB_URI) {
